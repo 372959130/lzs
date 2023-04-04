@@ -16,11 +16,14 @@ module.exports = {
       },
     ],
     target: ["web"],
+
+    // 启用presetEnv配置，在使用import { ActionSheet } from "antd-mobile"; 就会报错
     presetEnv: {
       mode: "entry",
       targets: ["Android >= 5.1"],
       coreJs: "3",
     },
+
   },
   module: {
     rules: [
