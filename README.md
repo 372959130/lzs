@@ -45,7 +45,7 @@ function App() {
         actions={actions}
         closeOnMaskClick={false}
         popupClassName="action-sheet-common"
-        onClose={() => setIsActionSheetShow(false)}
+        onClose={() => {}}
       />
     </div>
   );
